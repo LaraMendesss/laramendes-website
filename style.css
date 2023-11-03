@@ -2,27 +2,26 @@ body{
     background-color:white;
     font-family: poppins;
 }
+
 .welcome{
     display:flex;
-    justify-content: left;
+    justify-content:space-between;
     }
 
-.text{
-    padding-top: 20px;
-}
-
 .menu{
-    list-style: none;
+ list-style: none;
     display: flex;
+		position: relative;
     justify-content:left;
-		border-color: #9fd3c7;
+		color: white;
+		font-style: 700px;
+	
 }
 li{
-    padding: 10px 50px 40px 50px;
-    color: #9fd3c7;
+    padding: 30px 55px 30px 55px;
+    color: white;
     font-size: 20pt;
     text-align: center;
-
 }
 
 h1{
@@ -30,40 +29,53 @@ h1{
     font-size: 50px;
     color:#c3c2c2;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+		padding-top: 20px;
   }
   
 h2{
 
-    font-size: 90px;
+    font-size: 110px;
     color:#9fd3c7;
-    margin-top: -10px;
+    margin-top: -60px;
     text-align: center;
+	
   }
   h3{
 
-    font-size: 90px;
+    font-size: 110px;
     color: #9fd3c7;
-    margin-top: -90px;
+    margin-top: -130px;
     text-align: center;
+		position: relative;
+		left: 100px;
   }
   h4{
     color:#c3c2c2;
     text-align: center;
-    margin-top: -90px;
-		font-size: 20px;
+    margin-top: -120px;
+		font-size: 18px;
+		position: relative;
+		left: 55px;
   }
   img{
-    width: 500px;
-   opacity: 70%;
-    border-radius: 20px;
-    position: center;
+    width: 440px;
+   opacity: 100%;
+    position: absolute;
+		right: 0;
+	
   }
+	.box{
+		background-color: #9fd3c7;
+		padding: 80px 750px;
+		position: absolute;
+	
+	}
 	footer{
-		font-size: 10pt;
-		text-align: center;
+		font-size: 8pt;
+		text-align: left;
 		position: relative;
-		bottom: -200px;
+		bottom: -145px;
 	}
   
   
