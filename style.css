@@ -14,7 +14,7 @@ body{
 		position: relative;
     justify-content:left;
 		color: white;
-		font-style: 700px;
+		font-style: 500px;
 	
 }
 li{
@@ -24,36 +24,47 @@ li{
     text-align: center;
 }
 
+.topics:hover{
+transform: scale(1.2);
+
+transition: ease-in-out;
+transition-duration: 200ms;
+cursor: pointer;
+color: #41506b; 
+
+}
+
 h1{
     font-style: italic;
     font-size: 50px;
     color:#c3c2c2;
     text-align: center;
     padding-bottom: 30px;
-		padding-top: 20px;
+		padding-top: 30px;
   }
   
 h2{
 
     font-size: 110px;
     color:#9fd3c7;
-    margin-top: -60px;
-    text-align: center;
+    margin-top: -30px;
+		position: relative;
+		left: 420px;
+		line-height: 1.1;
 	
   }
-  h3{
-
-    font-size: 110px;
-    color: #9fd3c7;
-    margin-top: -130px;
-    text-align: center;
-		position: relative;
-		left: 100px;
-  }
+	h2:hover{
+		color: #41506b;
+transition:ease-in;
+transition-duration: 150ms;
+cursor: pointer;
+	}
+ 
+	
   h4{
     color:#c3c2c2;
     text-align: center;
-    margin-top: -120px;
+    margin-top: -90px;
 		font-size: 18px;
 		position: relative;
 		left: 55px;
@@ -63,12 +74,14 @@ h2{
    opacity: 100%;
     position: absolute;
 		right: 0;
+		
 	
   }
 	.box{
 		background-color: #9fd3c7;
 		padding: 80px 750px;
 		position: absolute;
+	
 	
 	}
 	footer{
