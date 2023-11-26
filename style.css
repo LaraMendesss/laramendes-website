@@ -135,6 +135,6 @@ cursor: pointer;
   #contacts{
     color: #41506b;
     font-size: 10px;
-    
+    display: inline-block;
   }
 
