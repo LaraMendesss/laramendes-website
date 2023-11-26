@@ -125,7 +125,7 @@ cursor: pointer;
 		position: relative;
 		left: 55px;
   }
-  img{
+  #laraImg{
     width: 440px;
    opacity: 100%;
     position: absolute;
