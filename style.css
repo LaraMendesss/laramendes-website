@@ -22,7 +22,8 @@ footer{
 }
 
 p{
-  padding: 55px 0 30px 150px;;
+  padding: 55px 0 30px 150px;
+  text-align: justify;
 }
 
 
