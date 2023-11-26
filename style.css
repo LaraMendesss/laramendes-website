@@ -5,7 +5,7 @@
 
 }
 footer{
-  font-size: 8pt;
+  font-size: 7pt;
   text-align: left;
   position: fixed;
   bottom: 10px;
@@ -13,17 +13,32 @@ footer{
 
 .home{
   color: white;
-  font-size: 30px;
-  text-align: left;
+  font-size: 60px;
+  display: flex;
+  position: relative;
+  justify-content: left;
+  left: 0;
+  padding: 35px 0 30px 100px;
 }
 
-a
+p{
+  padding: 55px 0 30px 150px;;
+}
+
+
+a{
+
+  text-decoration: none;
+color: white;
+}
+.topics
 {
 text-decoration: none;
 color: white;
 }
 
-a:hover{
+
+.topics:hover{
 transform: scale(1.2);
 transition: ease-in-out;
 transition-duration: 200ms;
@@ -42,6 +57,11 @@ body{
     justify-content:space-between;
     }
 
+
+    .welcome-aboutme{
+      display:flex;
+      justify-content:space-around;
+      }
 .menu{
  list-style: none;
     display: flex;
