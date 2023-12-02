@@ -5,7 +5,7 @@
 
 }
 footer{
-  font-size: 7pt;
+  font-size: 6pt;
   text-align: left;
   position: fixed;
   bottom: 10px;
@@ -49,18 +49,13 @@ color: #41506b;
 
 }
 
+
 body{
     background-color:white;
     font-family: poppins;
 }
 
-.welcome{
-    display:flex;
-    justify-content:space-between;
-    }
-
-
-    .welcome-aboutme{
+.welcome-aboutme{
       display:flex;
       justify-content:space-around;
       }
@@ -74,7 +69,7 @@ body{
 	
 }
 li{
-    padding: 30px 55px 30px 55px;
+  padding: 35px 55px 30px 55px;
     color: white;
     font-size: 20pt;
     text-align: center;
@@ -90,16 +85,18 @@ color: #41506b;
 
 }
 
-h1{
+h2{
     font-style: italic;
     font-size: 50px;
     color:#c3c2c2;
-    text-align: center;
+    text-align: left;
+    position: relative;
+    left: 250px;
     padding-bottom: 30px;
 		padding-top: 30px;
   }
   
-h2{
+h1{
 
     font-size: 110px;
     color:#9fd3c7;
@@ -109,7 +106,7 @@ h2{
 		line-height: 1.1;
 	
   }
-	h2:hover{
+	h1:hover{
 		color: #41506b;
 transition:ease-in;
 transition-duration: 150ms;
@@ -119,17 +116,18 @@ cursor: pointer;
 	
   h4{
     color:#c3c2c2;
-    text-align: center;
-    margin-top: -90px;
-		font-size: 18px;
+ 
+    margin-top: -70px;
+		font-size: 17px;
 		position: relative;
-		left: 55px;
+    left: 430px;
+		
   }
   #laraImg{
     width: 440px;
-   opacity: 100%;
     position: absolute;
 		right: 0;
+    top:0;
   }
 
  
