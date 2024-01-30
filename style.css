@@ -1,16 +1,23 @@
+
+:root{
+  --primary-color:#9fd3c7; 
+  --secondary-color:#41506b;
+  --third-color:#c3c2c2;
+}
+
 body{
 background-color:white;
 text-align: center;
 font-family: Poppins;}
 
 .menu{
-background-color: #9fd3c7;
+background-color: var(--primary-color);
 color: white;
 
 }
 
 .menu a{
-  color: #41506b;
+  color: var(--secondary-color);
   font-weight: bold;
   padding-right: 60px;
   padding-left: 30px;
@@ -49,13 +56,13 @@ a{
 }
 
 .welcome{
-  margin: 90px;
+  margin: 90px 90px 70px 90px;
 
 }
 .welcome h2{
 font-style: italic;
 font-size: 50px;
-color:#c3c2c2;
+color:var(--third-color);
 text-align: left;
 padding-left: 50px;
 padding-bottom: 30px;
@@ -68,13 +75,13 @@ line-height: 1.1;
 padding-left: 230px;}
 
 .welcome h1:hover{
-color: #41506b;
+color: var(--secondary-color);
 transition:ease-in;
 transition-duration: 150ms;
 cursor: pointer;}
  
 .welcome h4{
-color:#c3c2c2;
+color:var(--third-color);
 font-size: 25px;
 padding-left: 235px;}
 
@@ -82,20 +89,35 @@ padding-left: 235px;}
   text-decoration: none;
 }
 .welcome h4 a{
-  color: #c3c2c2;
+  color: var(--third-color);
 }
 .welcome h4 a:hover{
-  color: #41506b;
+  color: var(--secondary-color);
   transition:ease-in;
   transition-duration: 150ms;
   cursor: pointer;}
+
 #laraImg{
 width: 440px;
-border: 20px double #9fd3c7;
-border-radius: 210px;}
+border: 20px double var(--primary-color);
+border-radius: 210px;
+filter:grayscale(10%)}
 
-footer{
+.social a{
+font-size: 28px;
+color: var(--secondary-color);
+padding: 10px;
+}
+
+.social a:hover{
+color: var(--primary-color);
+transition:ease-in;
+transition-duration: 150ms;
+cursor: pointer;}
+  
+
+footer p{
 font-size: 12px;
 text-align: center;
-padding-top: 30px;
+padding-top: 10px;
 }
