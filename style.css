@@ -201,9 +201,44 @@ word-spacing: 5px;
     text-decoration: none;
   }
 
+  .art{
+    font-family: Dancing Script;
+    font-size: 60px;
+  }
+
+ 
+  
+  .card a{
+    text-decoration: none;
+   
+  }
+
+ 
+  
+.card h5{
+  color: var(--secondary-color);
+
+  background-color: white;
+  text-decoration: none;
+  margin: 100px -5px;
+  padding: 10px 0;
+  
+}
+.card-title {
+  opacity: 0;
+}
+.card-title:hover{
+opacity: 100%;
+transition:ease-in-out;
+transition-duration: 250ms;
+cursor: pointer;
+
+}
+
+
+
   .contact-box{
     background: var(--primary-color);
-
   padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -220,6 +255,13 @@ word-spacing: 5px;
     text-decoration: none;
   }
 
+  .btn-contact:hover{
+    background-color:var(--secondary-color);
+    transition-duration: 250ms;
+    cursor: pointer;
+    color: white;
+  }
+
 .intro{
  font-size: 21px;
  line-height: 1.5;
@@ -229,6 +271,7 @@ word-spacing: 5px;
 }
 .quote{
   color: var(--secondary-color);
+ 
 }
 .tools{
   background: whitesmoke;
