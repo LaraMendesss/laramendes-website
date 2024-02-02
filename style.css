@@ -64,7 +64,7 @@ font-style: italic;
 font-size: 50px;
 color:var(--third-color);
 text-align: left;
-padding-left: 50px;
+padding-left: 100px;
 padding-bottom: 30px;
 
   }
@@ -127,7 +127,7 @@ padding-top: 10px;
   display: grid;
   grid-template-columns: 2fr 1fr;
 column-gap: 30px;
-padding: 55px 120px 50px 120px;
+padding: 55px 120px 40px 120px;
 }
 
 .description{
@@ -163,6 +163,11 @@ padding: 55px 120px 50px 120px;
   text-decoration: none;
 
 }
+.btn-projects:hover{
+  background-color: var(--secondary-color);
+  
+}
+
 .languages{
 color: var(--secondary-color);
 font-weight: 600;
@@ -172,15 +177,26 @@ padding: 10px 10px 15px 20px;
 border-radius: 5px;
 }
 
-.cv a{
-  text-decoration: none;
+.cv{
+  text-align: center;
   color: var(--secondary-color);
   font-weight: 600;
 font-size: 18px;
-word-spacing: 5px;
+word-spacing: 3px;
 
 }
-.contact2{
+.cv a{
+  text-decoration: none;
+ color: var(--secondary-color);
+ font-family: Dancing Script;
+ font-size: 25px;
+}
+
+.cv :hover{ 
+ color: var(--primary-color);
+
+}
+.contact2 {
   color: white;
   text-align: center;
  padding: 10px;
@@ -190,7 +206,6 @@ word-spacing: 5px;
   }
 
   .contact1{
-  
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -201,20 +216,73 @@ word-spacing: 5px;
     text-decoration: none;
   }
 
+  .contact2 :hover{
+    color: var(--primary-color)
+  }
+
+.revDef{
+  font-size: 19px;
+  color: var(--secondary-color);
+  padding: 30px 100px 20px 100px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.revDef2{
+  
+  color: var(--primary-color);
+ font-weight: bold;
+ font-size: 22px;
+}
+.revenue{font-size: 25px;}
+
+.milestones a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+li{
+  text-align: left;
+  line-height: 2;
+  font-size: 17px;
+  color: var(--secondary-color);
+}
+
+.contCV{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.resume{
+
+  width: 100%;
+  aspect-ratio: 21/9;
+}
+
+
+.revlogos{
+  margin: 10px 25px 20px 25px;
+  text-align: justify;
+}
+
+
+.toolsrev{
+  background: var(--primary-color);
+ opacity: 80%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.toolsrev h2{
+  color: white;
+}
+
   .art{
     font-family: Dancing Script;
     font-size: 60px;
   }
-
- 
-  
   .card a{
     text-decoration: none;
-   
   }
 
- 
-  
 .card h5{
   color: var(--secondary-color);
 
@@ -234,9 +302,6 @@ transition-duration: 250ms;
 cursor: pointer;
 
 }
-
-
-
   .contact-box{
     background: var(--primary-color);
   padding: 20px;
@@ -281,6 +346,8 @@ cursor: pointer;
 .toologos{
   margin: 12px;
 }
+
+
 
 @media(max-width:800px){
  .welcome h1{
