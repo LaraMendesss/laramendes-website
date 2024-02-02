@@ -220,10 +220,11 @@ word-spacing: 3px;
     color: var(--primary-color)
   }
 
+ 
 .revDef{
   font-size: 19px;
   color: var(--secondary-color);
-  padding: 30px 100px 20px 100px;
+  padding: 30px 100px 0 100px;
   text-align: justify;
   line-height: 1.7;
 }
@@ -240,9 +241,25 @@ word-spacing: 3px;
   font-style: italic;
 }
 
+.milestones{
+padding-left: 20px;
+padding-top: 20px;
+}
 .milestones a{
   text-decoration: none;
   color: var(--secondary-color);
+}
+
+.pdf{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pdf2{
+width:100%;
+aspect-ratio: 21/9;
+border-radius: 10px;
+
 }
 
 li{
@@ -252,27 +269,19 @@ li{
   color: var(--secondary-color);
 }
 
-.contCV{
-  max-width: 800px;
-  margin: 0 auto;
-}
-.resume{
-
-  width: 100%;
-  aspect-ratio: 21/9;
-}
-
-
 .revlogos{
-  margin: 10px 25px 20px 25px;
+  margin: 5px 25px 5px 40px;
   text-align: justify;
 }
 
-
+.revlogos2{
+  margin:20px;
+}
 .toolsrev{
   background: whitesmoke;
-  padding: 30px;
   border-radius: 10px;
+  width: 600px;
+  height: 323px;
 }
 
 
