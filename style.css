@@ -228,13 +228,17 @@ word-spacing: 3px;
   line-height: 1.7;
 }
 
+
 .revDef2{
   
   color: var(--primary-color);
  font-weight: bold;
  font-size: 22px;
 }
-.revenue{font-size: 25px;}
+.revenue{font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
 
 .milestones a{
   text-decoration: none;
@@ -266,14 +270,11 @@ li{
 
 
 .toolsrev{
-  background: var(--primary-color);
- opacity: 80%;
+  background: whitesmoke;
   padding: 30px;
   border-radius: 10px;
 }
-.toolsrev h2{
-  color: white;
-}
+
 
   .art{
     font-family: Dancing Script;
