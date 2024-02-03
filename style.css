@@ -244,6 +244,7 @@ word-spacing: 3px;
 .milestones{
 padding-left: 20px;
 padding-top: 20px;
+font-size: 35px;
 }
 .milestones a{
   text-decoration: none;
@@ -281,7 +282,7 @@ li{
   background: whitesmoke;
   border-radius: 10px;
   width: 600px;
-  height: 323px;
+  height: 335px;
 }
 
 
