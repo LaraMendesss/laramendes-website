@@ -225,7 +225,7 @@ word-spacing: 3px;
 .revDef{
   font-size: 19px;
   color: var(--secondary-color);
-  padding: 30px 100px 0 100px;
+  padding: 20px 90px 0 90px;
   text-align: justify;
   line-height: 1.7;
 }
@@ -239,7 +239,7 @@ word-spacing: 3px;
 }
 .revenue{font-size: 40px;
   font-weight: bold;
- 
+  color: var(--secondary-color);
 }
 
 .milestones{
@@ -465,8 +465,8 @@ border-radius: 5px;
 .revDef2{
  font-size: 16px;
 }
-.revenue{font-size: 30px;
-
+.revenue{font-size: 28px;
+text-align: center;
   color: var(--secondary-color);
 }
 
