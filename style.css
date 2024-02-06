@@ -422,9 +422,9 @@ padding: 40px;
   color: var(--secondary-color);
 }
 .aboutme h1{
-  font-size: 33px;
+  font-size: 29px;
   color: var(--secondary-color);
-  text-align: left;
+  text-align: center;
    }
 .aboutme h2{
   font-size: 20px;
