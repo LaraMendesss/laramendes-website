@@ -292,18 +292,25 @@ li{
     font-family: Dancing Script;
     font-size: 60px;
   }
-  .card a{
-    text-decoration: none;
-  }
+
 
 .card h5{
-  color: var(--secondary-color);
-
   background-color: white;
   text-decoration: none;
   margin: 100px -5px;
   padding: 10px 0;
   
+}
+
+.git {
+  text-decoration: none;
+  color: grey;
+  font-size: 18px;;
+}
+
+.net {
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 .card-title {
   opacity: 0;
