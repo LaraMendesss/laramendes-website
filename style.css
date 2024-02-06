@@ -237,9 +237,9 @@ word-spacing: 3px;
  font-weight: bold;
  font-size: 22px;
 }
-.revenue{font-size: 25px;
+.revenue{font-size: 40px;
   font-weight: bold;
-  font-style: italic;
+ 
 }
 
 .milestones{
@@ -268,6 +268,7 @@ li{
   text-align: left;
   line-height: 2;
   font-size: 17px;
+  margin-right: 48px;
   color: var(--secondary-color);
 }
 
@@ -464,7 +465,9 @@ border-radius: 5px;
 .revDef2{
  font-size: 16px;
 }
-.revenue{font-size: 20px;
+.revenue{font-size: 30px;
+
+  color: var(--secondary-color);
 }
 
 .milestones{
@@ -473,10 +476,14 @@ padding-top: 0;
 font-size: 28px;
 text-align: center;
 }
+ul{
+  margin: 0;
+}
 li{
   padding: 0;
+  margin-right: 15px;
   text-align: justify;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 15px;
 }
 .revlogos{
