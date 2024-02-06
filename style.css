@@ -394,13 +394,20 @@ cursor: pointer;
 
   .welcome h4{
     color:var(--third-color);
-    font-size: 33px;
+    font-size: 42px;
    padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
   text-align: center;}
 
+.titulo2{
+  font-size: 34px;
+}
+
+.trazo{
+  display: none;}
+  
 .aboutme{
   text-align: center;
   display: grid;
@@ -447,7 +454,7 @@ padding: 10px;
 border-radius: 5px;
 }
 .contact2 {
-  font-size: 13px; }
+  font-size: 12px; }
 
 .revDef{
   font-size: 16px;
@@ -490,18 +497,9 @@ li{
 .art{
   font-size: 50px;
 }
-
 .card h5{
-  
-  margin: 140px -5px;
- 
-  
+  margin: 140px -5px; 
 }
-
-
-
-
-
 .contact-box{
   background: var(--primary-color);
 padding: 20px;
@@ -519,8 +517,6 @@ padding: 20px;
   padding: 12px;
   text-decoration: none;
 }
-
-
 .intro{
 font-size: 21px;
 line-height: 1.5;
