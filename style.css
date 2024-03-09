@@ -247,22 +247,13 @@ padding-left: 20px;
 padding-top: 20px;
 font-size: 35px;
 }
-.milestones a{
+.milestones li a{
   text-decoration: none;
   color: var(--secondary-color);
 }
 
-.pdf{
-  max-width: 900px;
-  margin: 0 auto;
-}
 
-.pdf2{
-width:100%;
-aspect-ratio: 21/9;
-border-radius: 10px;
 
-}
 
 li{
   text-align: left;
@@ -285,6 +276,27 @@ li{
   border-radius: 10px;
   width: 600px;
   height: 365px;
+}
+
+.btn-contact2{
+  color: white;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 15px 30px;
+  text-decoration: none;
+ display: block;
+ margin: 10px 200px;
+ text-align: center;
+ font-weight: bold;
+}
+
+
+.btn-contact2:hover{
+  background-color:var(--primary-color);
+  transition-duration: 250ms;
+  cursor: pointer;
+  color: white;
 }
 
 
@@ -473,7 +485,7 @@ border-radius: 5px;
 .revDef2{
  font-size: 16px;
 }
-.revenue{font-size: 28px;
+.revenue{font-size: 30px;
 text-align: center;
   color: var(--secondary-color);
 }
@@ -532,6 +544,8 @@ padding: 20px;
   padding: 12px;
   text-decoration: none;
 }
+
+
 .intro{
 font-size: 21px;
 line-height: 1.5;
